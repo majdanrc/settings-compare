@@ -61,6 +61,9 @@ func main() {
 			fmt.Println()
 		}
 	}
+
+	fmt.Println("------------------")
+	fmt.Println(dicts[0])
 }
 
 func readFile(filePath string) SettingsFile {
